@@ -1,0 +1,21 @@
+using System;
+
+class MayorDeEdad
+{
+    static void Main()
+    {
+        int edad;
+
+        Console.Write("Ingrese su edad: ");
+        edad = Convert.ToInt32(Console.ReadLine());
+
+        if (edad >= 18)
+        {
+            Console.WriteLine("Es mayor de edad");
+        }
+        else
+        {
+            Console.WriteLine("Es menor de edad");
+        }
+    }
+}
